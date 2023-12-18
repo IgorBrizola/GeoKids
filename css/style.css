@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --rosa: rgb(228, 68, 193);
+    --branco: #fff;
+}
+
+
+  .bnt-warning{
+    background:  rgb(41, 82, 110)!important;
+  }
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#ffffff ;
+    color: #000;
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+.navbar-brand span{
+    color: #ffffff!important;
+}
+
+.navbar-brand{
+    color: rgb(228, 68, 193)!important;
+}
+
+.navbar{
+    background: #310b6e !important;
+}
+
+.nav-link{
+    color: var(--branco)!important;
+
+}
+.nav-link:hover{
+    color: var(--rosa)!important;
+
+}
+.navbar a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+    .navbar-light .navbar-brand:hover{
+        color: #000;
+    }
+
+    .navbar-light .navbar-nav .navbar-link{
+        color: #000;
+    }
+
+    
+    .about-text i{
+        color: var(--rosa);
+
+    }
+
+
+    .about-text span{
+        color: var(--rosa);
+
+    }
+    .services h2{
+        color:var(--rosa);
+    }
+
+    .services h3{
+        color:var(--rosa);
+    }
+
+
+
+    .btn-warning{
+        background: var(--rosa)!important;
+        border: var(--rosa);
+        border-radius: 30px;
+        padding: 10px 60px;
+        
+    }
+
+    footer h5{
+        color: var(--rosa);
+    }
+
+    footer a{
+        color: var(--rosa)!important;
+    }
+
+    footer .brand{
+        letter-spacing: 2px;
+      }
+      
+      footer a{
+        transition: color 0.3 ease;
+      }
+
+    .team h2{
+        color:var(--rosa);
+    }
+
+    .fa-instagram:hover{
+        color: #cf1d61!important;;
+        cursor: pointer;
+    }
+
+    .fa-facebook-f:hover{
+        color: #1d5bcf !important;;
+        cursor: pointer;
+    }
+
+    .fa-x-twitter:hover{
+
+        color: #ffffff!important;;
+        cursor: pointer;
+    }
+
+
+     .bi-instagram:hover{
+        color: #cf1d61!important;;
+        cursor: pointer;
+    }
+    .bi-linkedin:hover{
+        color: #1d5bcf !important;;
+        cursor: pointer;
+    }
+
+
+    .w-100{
+        height: 100vh;
+    }
+
+    .services .card-body i{
+        font-size: 50px;
+    }
+
+    .team .card-body i{
+        font-size: 20px;
+    }
+
+    .portifolio .card{
+        box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+    }
+
+    .team .card{
+        box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+
+    }
+    
+
+    /*Responsive css*/
+
+    @media only  screen and (min-width: 768px) and (max-width: 767px){
+        .carousel-caption{
+            bottom: 370px;;
+        }
+        .carousel-caption p{
+            width: 100%;
+        }
+        .card{
+            margin-bottom: 370px;
+        }
+        .img-area img{
+            width: 100%;
+        }
+
+
+    }
+
+    @media only  screen and (max-width: 767px){
+        .navbar-nav{
+            text-align: center;
+        }
+        .carousel-caption{
+            bottom: 125px;
+        }
+        .carousel-caption h5{
+            font-size: 17px;
+        }
+        .carousel-caption a{
+            padding: 10px 15px;
+        }
+        .carousel-caption p{
+            width: 100%;
+            line-height: 1.6;
+            font-size: 12px;
+        }
+        .about-text{
+            padding-top: 50px;
+        }
+        .card {
+            margin-bottom: 30px;
+        }
+    }
+
+
+    
+
